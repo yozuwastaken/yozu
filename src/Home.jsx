@@ -20,6 +20,7 @@ import 'react-social-icons/youtube'
 import 'react-social-icons/twitch'
 import 'react-social-icons/discord'
 import 'react-social-icons/twitter'
+import 'react-social-icons/x'
 import 'react-social-icons/tiktok'
 import LinkBox from './LinkBox';
 
@@ -41,7 +42,7 @@ const card = (
             <SocialIcon target="_blank" url="https://www.twitch.tv/yozu" />
             <SocialIcon target="_blank" url="https://www.youtube.com/@Yozu/videos" />
             <SocialIcon target="_blank" url="https://discord.com/invite/yozu" />
-            <SocialIcon target="_blank" url="https://twitter.com/yozulol" />
+            <SocialIcon network="x" target="_blank" url="https://twitter.com/yozulol" />
             <SocialIcon target="_blank" url="https://www.tiktok.com/@yozulol" />
         </CardActions>
         <CardContent>
