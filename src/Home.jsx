@@ -106,6 +106,7 @@ const Home = () => {
             </Box>
             <LinkBox link="https://www.youtube.com/@Yozu/videos" title="Main Channel" />
             <LinkBox link="https://www.youtube.com/@YozuLux" title="Yozu Lux" />
+            <LinkBox link="https://discord.com/channels/345170363434663947/846442427400454144" title= "Stream Schedule"/>
 
             
  
