@@ -2,31 +2,28 @@ import React from 'react';
 
 import './Home.css';
 import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import { SocialIcon } from 'react-social-icons/component'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Link from '@mui/material/Link';
-import Typography from '@mui/material/Typography';
+
 import CardMedia from '@mui/material/CardMedia';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import Avatar from '@mui/material/Avatar';
-import { SocialIcon } from 'react-social-icons/component'
+
 import 'react-social-icons/youtube'
 import 'react-social-icons/twitch'
 import 'react-social-icons/discord'
 import 'react-social-icons/twitter'
 import 'react-social-icons/tiktok'
+import LinkBox from './LinkBox';
 
 import { CiLocationOn } from "react-icons/ci";
-
-
-
-
-
-
 
 // Define a functional component
 
@@ -58,7 +55,7 @@ const card = (
             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
 
             </Typography>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent:'center'}}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <CiLocationOn />
                 <div style={{ marginLeft: '5px' }}>
                     <Typography variant="h6" component="div">
@@ -89,7 +86,7 @@ const Home = () => {
 
             <Box sx={{
                 maxWidth: 900, marginTop: '50px',
-                marginBottom: '50px',
+                marginBottom: '20px',
                 borderRadius: '10px',
                 boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.3)'
             }}>
@@ -113,8 +110,12 @@ const Home = () => {
 
                 </div>
                 <Card variant="outlined">{card}</Card>
-
             </Box>
+            <LinkBox link="https://www.youtube.com/@Yozu/videos" title="Main Channel" />
+            <LinkBox link="https://www.youtube.com/@YozuLux" title="Yozu Lux" />
+
+            
+ 
         </div>
 
     );
