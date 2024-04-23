@@ -27,14 +27,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 // Define a functional component
 
-const bull = (
-    <Box
-        component="span"
-        sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-    >
-        •
-    </Box>
-);
+
 
 const card = (
     <React.Fragment>

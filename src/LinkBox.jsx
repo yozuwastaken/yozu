@@ -2,8 +2,16 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { SocialIcon } from 'react-social-icons/component'
+import { FaArrowRight } from "react-icons/fa";
 
 const LinkBox = ({ link, title }) => {
+    const bull = (
+        <Box
+            component="span"
+            sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+        >
+        </Box>
+    );
     return (
         <a href={link} target="_blank">
         <Box style={{
@@ -11,30 +19,41 @@ const LinkBox = ({ link, title }) => {
             marginBottom: '20px',
             border: "2px solid white",
             boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.3)',
-            display: 'flex', // Enable Flexbox
-            alignItems: 'center',
+            display: 'flex', 
+            alignItems: 'flex-start',
             flexDirection: 'row',
             background: '#fff',
         }}>
 
-
             <div
                 style={{
-                display: 'flex', // Enable Flexbox
+                display: 'flex', 
                 alignItems: 'center',
                 marginLeft: '20px',
-                marginTop: '2px',
-                marginBottom: '2px'
+                marginTop: '5px',
+                marginBottom: '5px',
+                
 
             }}>
                 <SocialIcon target="_blank" url={link}/>
                 <div style={{
-                    marginLeft: '20px',
-                    marginTop: '2px',
-                    marginBottom: '2px'
+                        marginLeft: '15px',
+                        marginTop: '2px',
+                        marginBottom: '2px',
+                        width: '200px',
+                        display: 'flex',
+                        flexDirection: 'row',
+                        justifyContent: 'flex-start'
                 }}>
-                    <Typography variant="p" component="div">{title}</Typography>
+  
+                    <Typography variant="h6" component="div">{title}</Typography>
                 </div>
+                <div style = {{marginLeft:'500px'}}>
+                    <button class="button-30" role="button">
+                        <FaArrowRight />
+                    </button>
+                </div>
+                
 
 
             </div>
