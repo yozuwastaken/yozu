@@ -32,7 +32,6 @@ import { CiLocationOn } from "react-icons/ci";
 
 const card = (
     <React.Fragment>
-
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '10px', }}>
             <Avatar alt="" src="https://yt3.googleusercontent.com/WwywHh8zQOXgJaSIvGSS0FLLcAvz5fRb8xqYaFIxtTpdcdPmYy7qv733dPlWM-FCrJuvBApDtw=s900-c-k-c0x00ffffff-no-rj" />
         </div>
