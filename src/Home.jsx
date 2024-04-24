@@ -102,15 +102,28 @@ const Home = () => {
 
 
                 </div>
+                
                 <Card variant="outlined">{card}</Card>
-            </Box>
-            <LinkBox link="https://www.youtube.com/@Yozu/videos" title="Main Channel" />
-            <LinkBox link="https://www.youtube.com/@YozuLux" title="Yozu Lux" />
-            <LinkBox link="https://discord.com/channels/345170363434663947/846442427400454144" title= "Stream Schedule"/>
 
-            
- 
-        </div>
+                <div style ={{marginTop: '20px'}}>
+                <LinkBox link="https://www.youtube.com/@Yozu/videos" title="Main Channel" />
+                <LinkBox link="https://www.youtube.com/@YozuLux" title="Yozu Lux" />
+                <LinkBox link="https://discord.com/channels/345170363434663947/846442427400454144" title="Stream Schedule" />
+                </div>
+                
+            </Box>
+
+
+
+
+
+
+
+
+
+
+
+        </div >
 
     );
 };

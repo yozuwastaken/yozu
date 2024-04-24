@@ -15,7 +15,7 @@ const LinkBox = ({ link, title }) => {
     return (
         <a href={link} target="_blank">
         <Box style={{
-            width: 900,
+            maxWidth: '900px',
             marginBottom: '20px',
             border: "2px solid white",
             boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.3)',
@@ -25,7 +25,7 @@ const LinkBox = ({ link, title }) => {
             background: '#fff',
         }}>
 
-            <div
+            <Box
                 style={{
                 display: 'flex', 
                 alignItems: 'center',
@@ -48,7 +48,7 @@ const LinkBox = ({ link, title }) => {
   
                     <Typography variant="h6" component="div">{title}</Typography>
                 </div>
-                <div style = {{marginLeft:'500px'}}>
+                <div >
                     <button class="button-30" role="button">
                         <FaArrowRight />
                     </button>
@@ -56,7 +56,7 @@ const LinkBox = ({ link, title }) => {
                 
 
 
-            </div>
+            </Box>
 
 
         </Box>
