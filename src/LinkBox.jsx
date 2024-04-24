@@ -40,7 +40,7 @@ const LinkBox = ({ link, title }) => {
                         marginLeft: '15px',
                         marginTop: '2px',
                         marginBottom: '2px',
-                        width: '200px',
+                        width: '50vw',
                         display: 'flex',
                         flexDirection: 'row',
                         justifyContent: 'flex-start'
