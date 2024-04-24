@@ -4,7 +4,7 @@
   justify-content: center;
   width: 100vw;
   height: calc(100vh - var(--header-height)); /* Adjusted height */
-  background: rgb(228, 229, 231);
+  background: rgb(51, 51, 51);
   flex-direction: column;
 }
 
