@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/yozu/static/css/main.84b9e237.css",
+    "main.css": "/yozu/static/css/main.d6cd7412.css",
     "main.js": "/yozu/static/js/main.89a80bfc.js",
     "static/js/453.2f99490b.chunk.js": "/yozu/static/js/453.2f99490b.chunk.js",
     "static/media/roboto-latin-500-normal.woff2": "/yozu/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
@@ -60,12 +60,12 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/yozu/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/yozu/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/yozu/index.html",
-    "main.84b9e237.css.map": "/yozu/static/css/main.84b9e237.css.map",
+    "main.d6cd7412.css.map": "/yozu/static/css/main.d6cd7412.css.map",
     "main.89a80bfc.js.map": "/yozu/static/js/main.89a80bfc.js.map",
     "453.2f99490b.chunk.js.map": "/yozu/static/js/453.2f99490b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84b9e237.css",
+    "static/css/main.d6cd7412.css",
     "static/js/main.89a80bfc.js"
   ]
 }
